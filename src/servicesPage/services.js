@@ -36,7 +36,9 @@ export function Services() {
         pClass.childNodes[i].className = "service-type";
       }
       e.target.parentElement.classList.add("selected-type");
-    } else if (e.target.parentElement.className === "service-type selected-type") {
+    } else if (
+      e.target.parentElement.className === "service-type selected-type"
+    ) {
       for (let i = 0; i < pClass.childNodes.length; i++) {
         pClass.childNodes[i].className = "service-type";
       }
@@ -75,74 +77,94 @@ export function Services() {
           </p>
         </div>
         <div className="how-content">
-            <div className="hc-img">
-                <img src={photo1} alt='concept'></img>
+          <div className="hc-img">
+            <img src={photo1} alt="concept"></img>
+          </div>
+          <div className="hc-text">
+            <div className="hc-text-anima">
+              <img src={icon1} alt="icon"></img>
+              <p>01</p>
             </div>
-            <div className="hc-text">
-                <div className="hc-text-anima">
-                    <img src={icon1} alt="icon"></img>
-                    <p>01</p>
-                </div>
-                <div className="hc-subtext">
-                    <h2>Concept & Details</h2>
-                    <p>It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry. </p>
-                </div>
+            <div className="hc-subtext">
+              <h2>Concept & Details</h2>
+              <p>
+                It is a long established fact will be distracted. Lorem Ipsum is
+                simply dummy from text of the and typesetting indufstry.{" "}
+              </p>
             </div>
+          </div>
         </div>
-            
+
         <div className="how-content">
-            <div className="hc-text">
-                <div className="hc-text-anima">
-                    <img src={icon2} alt="icon"></img>
-                    <p>02</p>
-                </div>
-                <div className="hc-subtext">
-                    <h2>Idea for work</h2>
-                    <p>It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry. </p>
-                </div>
+          <div className="hc-text">
+            <div className="hc-text-anima">
+              <img src={icon2} alt="icon"></img>
+              <p>02</p>
             </div>
-            <div className="hc-img">
-                <img src={photo2} alt='concept'></img>
+            <div className="hc-subtext">
+              <h2>Idea for work</h2>
+              <p>
+                It is a long established fact will be distracted. Lorem Ipsum is
+                simply dummy from text of the and typesetting indufstry.{" "}
+              </p>
             </div>
+          </div>
+          <div className="hc-img">
+            <img src={photo2} alt="concept"></img>
+          </div>
         </div>
-        
+
         <div className="how-content">
-            <div className="hc-img">
-                <img src={photo3} alt='concept'></img>
+          <div className="hc-img">
+            <img src={photo3} alt="concept"></img>
+          </div>
+          <div className="hc-text">
+            <div className="hc-text-anima">
+              <img src={icon3} alt="icon"></img>
+              <p>03</p>
             </div>
-            <div className="hc-text">
-                <div className="hc-text-anima">
-                    <img src={icon3} alt="icon"></img>
-                    <p>03</p>
-                </div>
-                <div className="hc-subtext">
-                    <h2>Design</h2>
-                    <p>It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry. </p>
-                </div>
+            <div className="hc-subtext">
+              <h2>Design</h2>
+              <p>
+                It is a long established fact will be distracted. Lorem Ipsum is
+                simply dummy from text of the and typesetting indufstry.{" "}
+              </p>
             </div>
+          </div>
         </div>
-        
+
         <div className="how-content">
-            <div className="hc-text">
-                <div className="hc-text-anima">
-                    <img src={icon4} alt="icon"></img>
-                    <p>04</p>
-                </div>
-                <div className="hc-subtext">
-                    <h2>Perfection</h2>
-                    <p>It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry. </p>
-                </div>
+          <div className="hc-text">
+            <div className="hc-text-anima">
+              <img src={icon4} alt="icon"></img>
+              <p>04</p>
             </div>
-            <div className="hc-img">
-                <img src={photo4} alt='concept'></img>
+            <div className="hc-subtext">
+              <h2>Perfection</h2>
+              <p>
+                It is a long established fact will be distracted. Lorem Ipsum is
+                simply dummy from text of the and typesetting indufstry.{" "}
+              </p>
             </div>
+          </div>
+          <div className="hc-img">
+            <img src={photo4} alt="concept"></img>
+          </div>
         </div>
       </div>
 
       <div className="interno">
         <h1>Wanna join the interno?</h1>
-        <p>It is a long established fact  will be distracted.</p>
-        <Link><button>Contact With Us<AiOutlineArrowRight style={{ marginLeft: "5px"  }} color="#292F36" /></button></Link>
+        <p>It is a long established fact will be distracted.</p>
+        <Link>
+          <button>
+            Contact With Us
+            <AiOutlineArrowRight
+              style={{ marginLeft: "5px" }}
+              color="#292F36"
+            />
+          </button>
+        </Link>
       </div>
     </div>
   );

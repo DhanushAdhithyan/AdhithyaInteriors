@@ -42,10 +42,7 @@ export function Home() {
     <div className="home">
       <div className="homeNews" style={{ backgroundImage: `url(${photoBg})` }}>
         <h1>Let Your Home Be Unique</h1>
-        <p>
-          There are many variations of the passages of lorem Ipsum
-          fromavailable,variations of the passages.
-        </p>
+        <p>We take care of stying your Dream Home.</p>
         <Link to="">
           <button>
             Get Started
@@ -75,39 +72,41 @@ export function Home() {
             })}
         </div>
         <div className="homeAboutUs">
-            <div className="hp-subtext">
-              <h1>We Create The Art Of Stylish Living Stylishly</h1>
-              <p>
-                It is a long established fact that a reader will be distracted
-                by the of readable content of a page when lookings at its
-                layouts the points of using that it has a more-or-less normal.
-              </p>
-              <div className="callUs">
-          <div className="phoneNum">
-            <p className="h-icon">
-              <BsTelephone />
+          <div className="hp-subtext">
+            <h1>We Create The Art Of Stylish Living Stylishly</h1>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the of readable content of a page when lookings at its layouts the
+              points of using that it has a more-or-less normal.
             </p>
-            <a href="tel: +994 (070) 883-37-38">
-              <p>
-                +994 (070) 883-37-38
+            <div className="callUs">
+              <div className="phoneNum">
+                <p className="h-icon">
+                  <BsTelephone />
+                </p>
+                <a href="tel: +91 9965012201">
+                  <p>
+                    +91 9965012201
+                    <br />
+                    <span>Call Us Anytime</span>
+                  </p>
+                </a>
                 <br />
-                <span>Call Us Anytime</span>
-              </p>
-            </a>
-            <br />
-          </div>
+              </div>
 
-          <Link to={`/contact`}>
-            <button>
-              Get Free Estimate
-              <BsArrowRight style={{ marginLeft: "2%", color: "#CDA274" }} />
-            </button>
-          </Link>
-        </div>
+              <Link to={`/contact`}>
+                <button>
+                  Get Free Estimate
+                  <BsArrowRight
+                    style={{ marginLeft: "2%", color: "#CDA274" }}
+                  />
+                </button>
+              </Link>
             </div>
-            <div className="hp-img">
-              <img src={home1} alt="concept"></img>
-            </div>
+          </div>
+          <div className="hp-img">
+            <img src={home1} alt="concept"></img>
+          </div>
         </div>
         {/* <div className="callUs">
           <div className="phoneNum">
@@ -173,11 +172,8 @@ export function Home() {
           </ul>
         </div>
         <div className="homeProjects">
-          <h1>Follow Our Projects</h1>
-          <p>
-            It is a long established fact that a reader will be distracted by
-            the of readable content of a page lookings at its layouts.
-          </p>
+          <h1>Our Specializations</h1>
+          <p>Take a look at our special focusing projects we do !</p>
           <div className="hp-list">
             <div className="hp-project">
               <div className="hp-pro-img">
@@ -259,19 +255,19 @@ export function Home() {
       </div>
       <div className="home-experience">
         <div className="h-years">
-        <CountUp className="h-year num" duration={4} end={12} />
+          <CountUp className="h-year num" duration={4} end={12} />
           <p>Years Of Experience</p>
         </div>
         <div className="h-s-project">
-        <CountUp duration={4} className="h-sp num" end={85} />
+          <CountUp duration={4} className="h-sp num" end={85} />
           <p>Success Project</p>
         </div>
         <div className="h-a-project">
-        <CountUp duration={4} className="h-ap num" end={15} />
+          <CountUp duration={4} className="h-ap num" end={15} />
           <p>Active Project</p>
         </div>
         <div className="h-customers">
-        <CountUp duration={4} className="h-cust num" end={95} />
+          <CountUp duration={4} className="h-cust num" end={95} />
           <p>Happy Customers</p>
         </div>
       </div>
@@ -333,8 +329,11 @@ export function Home() {
         </div>
       </div>
       <div className="h-interno">
-        <h1>Wanna join the interno?</h1>
-        <p>It is a long established fact will be distracted.</p>
+        <h1>Wanna get in touch with us ?</h1>
+        <p>
+          Just connect with us now, Call +91 9965012201 or click the button
+          below to mail us
+        </p>
         <Link to={`/contact`}>
           <button>
             Contact With Us
@@ -345,6 +344,23 @@ export function Home() {
           </button>
         </Link>
       </div>
+
+      {/* <div className="h-interno">
+        <h1>Wanna get in touch with us ?</h1>
+        <p>
+          Just connect with us now, Call +91 9965012201 or click the button
+          below to mail us
+        </p>
+        <Link to={`/contact`}>
+          <a href="mailto:your-email@example.com">
+            Contact With Us
+            <AiOutlineArrowRight
+              style={{ marginLeft: "5px" }}
+              color="#292F36"
+            />
+          </a>
+        </Link>
+      </div> */}
     </div>
   );
 }

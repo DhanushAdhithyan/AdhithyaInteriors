@@ -96,11 +96,11 @@ export function Footer() {
         </section>
         <section className="f-contact">
           <p>Contact</p>
-          <p>55 East Birchwood Ave. Brooklyn, New York 11201</p>
+          <p>Muthu Nagar , Lakshmi puram, Hope College to singanallur road , Coimbatore - 641015</p>
           <p>
-            <a href="mailto: contact@interno.com">contact@interno.com</a>
+            <a href="mailto: contact@interno.com">adhithyainteriors@gmail.com</a>
           </p>
-          <p>+(123) 456 - 7890</p>
+          <p>+(91) 8220548847</p>
         </section>
       </div>
       <div className="terms">
@@ -120,7 +120,7 @@ export function Footer() {
         </ul>
       </div>
       <div className="f-copyright">
-        <p>Copyright © Interno | Designed by Jafarli</p>
+        <p>Copyright © Adhithya Interiors | Designed By Dhanush Adhithyan</p>
       </div>
     </div>
   );

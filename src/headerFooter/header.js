@@ -11,7 +11,7 @@ export function Header() {
             <img src={logo} alt="logo"></img>
           </div>
           <div className="header-text">
-            <p>Interno</p>
+            <p>Adhithya Interior Decorators</p>
           </div>
         </Link>
       </div>

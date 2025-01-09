@@ -1,8 +1,28 @@
-{"services" : [
-    {"service_name": "Project Plan", "service_content": "There are many variations of the passages of lorem Ipsum from available, majority."},
-    {"service_name": "Interior Work", "service_content": "There are many variations of the passages of lorem Ipsum from available, majority."},
-    {"service_name": "Retail Design", "service_content": "There are many variations of the passages of lorem Ipsum from available, majority."},
-    {"service_name": "2d/3d Art Work", "service_content": "There are many variations of the passages of lorem Ipsum from available, majority."},
-    {"service_name": "Interior Work", "service_content": "There are many variations of the passages of lorem Ipsum from available, majority."},
-    {"service_name": "Decoration Work", "service_content": "There are many variations of the passages of lorem Ipsum from available, majority."}
-]}
+{
+  "services": [
+    {
+      "service_name": "Comprehensive Project Planning",
+      "service_content": "We provide detailed project plans, ensuring your interior design vision is executed with precision and efficiency, covering timelines, costs, and milestones."
+    },
+    {
+      "service_name": "Custom Interior Design",
+      "service_content": "Our team specializes in creating bespoke interior designs that reflect your unique style and functional requirements for both residential and commercial spaces."
+    },
+    {
+      "service_name": "Innovative Retail Space Design",
+      "service_content": "We craft engaging and functional retail spaces that enhance customer experiences and align with your brand's identity."
+    },
+    {
+      "service_name": "2D & 3D Visualizations",
+      "service_content": "Experience your designs virtually before execution with our state-of-the-art 2D layouts and 3D renders for accurate visualization."
+    },
+    {
+      "service_name": "Elegant Decoration Services",
+      "service_content": "From furniture placement to accessory selection, our decoration services add the finishing touches that bring your space to life."
+    },
+    {
+      "service_name": "Full-Service Renovation & Makeovers",
+      "service_content": "Transform your existing spaces with our renovation services, blending modern trends with timeless designs to revitalize your interiors."
+    }
+  ]
+}
