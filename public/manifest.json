@@ -3,17 +3,17 @@
   "name": "Interior decoration company. We build your dream interiors",
   "icons": [
     {
-      "src": "/src/images/faviconlogo.png",
+      "src": "%PUBLIC_URL%/faviconlogo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     },
     {
-      "src": "/src/images/faviconlogo.png",
+      "src": "%PUBLIC_URL%/faviconlogo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/src/images/faviconlogo.pngg",
+      "src": "%PUBLIC_URL%/faviconlogo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
