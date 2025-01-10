@@ -103,10 +103,7 @@ export function ProjectDetails() {
         </div>
       </div>
       <div className="zoomRoom">
-        <InnerImageZoom
-          src={photo}
-          alt="Zoomed view of modular kitchen project"
-        />
+        <InnerImageZoom src={photo} alt=" view of modular kitchen project" />
       </div>
     </div>
   );
